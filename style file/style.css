@@ -132,3 +132,49 @@ nav {
   text-align: center;
   text-transform: capitalize;
 }
+
+#btn2 {
+  width: 167px;
+  height: 56px;
+  padding: 16px 32px 16px 32px;
+  background-color: rgb(255, 0, 0);
+  border: none;
+  border-radius: 8px;
+  color: azure;
+}
+
+.announcement-sec-one {
+  /* border: yellow solid 2px; */
+  width: 1320px;
+  height: 450px;
+  margin: 0 auto;
+  padding-top: 80px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.picc{
+width: 220px;
+height: 220px;
+border-radius: 50%;
+border: 3px solid rgb(255, 0, 0);
+padding: 5px;
+box-sizing: border-box;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+
+}
+
+.hosale-section{
+    border: yellow solid 2px;
+    width: 1060px;
+    height: 255px;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+}
