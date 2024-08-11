@@ -171,10 +171,76 @@ background-color: white;
 }
 
 .hosale-section{
-    border: yellow solid 2px;
+    /* border: yellow solid 2px; */
     width: 1060px;
     height: 255px;
     margin: 0 auto;
     padding-top: 10px;
     text-align: center;
+}
+
+.holisaleimage-container{
+    /* border: yellow solid 2px; */
+    width: 1060px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-image: url("../resources/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1320px 150px;
+    display: flex;
+
+
+}
+
+.holesale-left-box{
+    /* border: blue solid 2px; */
+    width: 70%;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holesale-right-box{
+    width: 30%;
+    height: 340px;
+    /* border: 2px blue solid; */
+    padding-top: 10px;
+    background-image: url("../resources/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* background-size: 1320px 150px; */
+    background-size: cover;
+
+    position: relative;
+}
+
+.portfolio-section{
+    border: yellow solid 2px;
+
+    width: 1320px;
+    height: 1150px;
+    margin: 80px auto;
+    padding-top: 10px;
+
+}
+
+.portfolio-image-container1{
+display: flex;
+justify-content: space-around;
+gap: 5px;
+}
+
+.portfolio-image-container2{
+display: flex;
+justify-content: space-around;
+gap: 5px;
+margin-top: 30px;
+}
+
+.portfolioimage{
+    width: 400px;
+    height: 410px;
 }
