@@ -155,92 +155,155 @@ nav {
   align-items: center;
 }
 
-.picc{
-width: 220px;
-height: 220px;
-border-radius: 50%;
-border: 3px solid rgb(255, 0, 0);
-padding: 5px;
-box-sizing: border-box;
-overflow: hidden;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: white;
+.picc {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 3px solid rgb(255, 0, 0);
+  padding: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.hosale-section {
+  /* border: yellow solid 2px; */
+  width: 1060px;
+  height: 255px;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.holisaleimage-container {
+  /* border: yellow solid 2px; */
+  width: 1060px;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 10px;
+  background-image: url("../resources/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 1320px 150px;
+  display: flex;
+}
+
+.holesale-left-box {
+  /* border: blue solid 2px; */
+  width: 70%;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.holesale-right-box {
+  width: 30%;
+  height: 340px;
+  /* border: 2px blue solid; */
+  padding-top: 10px;
+  background-image: url("../resources/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /* background-size: 1320px 150px; */
+  background-size: cover;
+
+  position: relative;
+}
+
+.portfolio-section {
+  /* border: yellow solid 2px; */
+
+  width: 1320px;
+  height: 1150px;
+  margin: 80px auto;
+  padding-top: 10px;
+}
+
+.portfolio-image-container1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.portfolio-image-container2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  margin-top: 30px;
+}
+
+.portfolioimage {
+  width: 400px;
+  height: 410px;
+}
+
+.subscribe-section {
+  /* border: yellow solid 2px; */
+  width: 1320px;
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: 20px auto;
+  padding-top: 120px;
+}
+
+.inputandbtn{
+    padding-left: 200px;
+    padding-top: 60px;
+}
+
+#input12{
+    width: 650px;
+    height: 60px;
+    border: none;
+    padding-left: 15px;
+    
+    
+}
+
+#btn33{
+border-radius: 0px 50px 50px 0px;
+background: rgb(255, 0, 0);
+width: 200px;
+height: 60px;
+border: none;
+color:white;
+font: 30px;
 
 }
 
-.hosale-section{
-    /* border: yellow solid 2px; */
-    width: 1060px;
-    height: 255px;
-    margin: 0 auto;
-    padding-top: 10px;
-    text-align: center;
+footer{
+    background: rgb(7, 2, 17);
+    /* width: 1600px; */
+height: 609px;
 }
 
-.holisaleimage-container{
-    /* border: yellow solid 2px; */
-    width: 1060px;
-    height: 500px;
-    margin: 0 auto;
-    padding-top: 10px;
-    background-image: url("../resources/Rectangle\ 2.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 1320px 150px;
+.footer-container-one{
     display: flex;
+    justify-content: space-around;
+    padding-top: 130px;
 
 
 }
 
-.holesale-left-box{
-    /* border: blue solid 2px; */
-    width: 70%;
-    height: 460px;
+.footer-container-two{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    padding: 20px;
 }
 
-.holesale-right-box{
-    width: 30%;
-    height: 340px;
-    /* border: 2px blue solid; */
-    padding-top: 10px;
-    background-image: url("../resources/Rectangle\ 1.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    /* background-size: 1320px 150px; */
-    background-size: cover;
+.footer-container-three{
 
-    position: relative;
-}
-
-.portfolio-section{
-    border: yellow solid 2px;
-
-    width: 1320px;
-    height: 1150px;
-    margin: 80px auto;
-    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
 
 }
 
-.portfolio-image-container1{
-display: flex;
-justify-content: space-around;
-gap: 5px;
-}
 
-.portfolio-image-container2{
-display: flex;
-justify-content: space-around;
-gap: 5px;
-margin-top: 30px;
-}
-
-.portfolioimage{
-    width: 400px;
-    height: 410px;
-}
